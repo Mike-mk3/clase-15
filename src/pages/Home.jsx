@@ -1,8 +1,31 @@
 function Home() {
+ 
+
   return (
 
     <>
       <div className="container ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -26,15 +49,7 @@ function Home() {
           </div>
           <button type="submit" className="btn btn-primary">ENVIAR</button>
         </form>
-
-
-
-
-
-
-
       </div>
-
 
 
 

@@ -1,8 +1,10 @@
 import { useState } from "react";
 
+
 function Nosotros(){
     
-    const [loading, setLoading] = useState(true);
+
+
 
     return (
 
