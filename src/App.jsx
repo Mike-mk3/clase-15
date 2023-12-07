@@ -8,11 +8,15 @@ function App() {
 
   return (
     <>
-
       <ul>
         <li><NavLink to="/nosotros">SOBRE NOSOTROS</NavLink></li>
         <li><NavLink to="/home">INICIO</NavLink></li>
       </ul>
+
+
+
+
+
 
       
 
