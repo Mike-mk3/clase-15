@@ -13,13 +13,6 @@ function App() {
         <li><NavLink to="/home">INICIO</NavLink></li>
       </ul>
 
-
-
-
-
-
-      
-
       <AppRouter />
 
     </>

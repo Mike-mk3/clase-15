@@ -49,7 +49,7 @@ function Home() {
 
 
         <h2>Haz tu Reservacion en:</h2>
-        <table className="d-flex bg-body-tertiary  flex-column align-items-center">
+        <table className="py-4 d-flex bg-body-tertiary  flex-column align-items-center">
 
   <tbody>
     <tr>
