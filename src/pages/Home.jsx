@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { db } from "../config/firebase";
-import { collection, onSnapshot, getDocs, addDoc } from "firebase/firestore";
+import { collection, onSnapshot, getDocs, addDoc, QuerySnapshot } from "firebase/firestore";
 
 function Home() {
 
@@ -11,14 +11,21 @@ function Home() {
     fecha: ""
   });
 
+
+
+
+
+
+
+
   const cargarDatos = async () => {
     console.log("cargar datos");
-    const datos = await getDocs(collection(db, "reservaciones"));
-    let datosFormateados = datos.docs.map((doc) => {
-      return doc.data();
+    onSnapshot (collection(db, "reservaciones"),(querySnapshot) => {
+      let datosFormateados = querySnapshot.docs.map ((doc)=> {
+        return doc.data();
+      });
+      setDatosTabla(datosFormateados);
     });
-    setDatosTabla(datosFormateados);
-    console.log(datosFormateados);
   }
 
   useEffect(() => {
@@ -37,8 +44,9 @@ function Home() {
 
 const guardarReservacion = async (event)=> {
   event.preventDefault();
-  console.log(formulario);
+
   await addDoc(collection(db, "reservaciones" ), formulario);
+
 }
 
 
