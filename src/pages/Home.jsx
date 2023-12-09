@@ -91,13 +91,13 @@ const guardarReservacion = async (event)=> {
 
           <hr />
 
-          <table className="table text-center table-bordered">
+          <table className="table table-bordered">
             <thead>
-              <tr>
-                <th scope="col">#</th>
+              <tr className="text-center">
+                <th  scope="col">#</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Fecha</th>
-                <th scope="col">Cuantos</th>
+                <th scope="col">Lugares</th>
               </tr>
             </thead>
             <tbody>
@@ -105,10 +105,10 @@ const guardarReservacion = async (event)=> {
                 datosTabla.map((row, index) => {
                   return (
                     <tr key={index}>
-                      <th >{index + 1}</th>
+                      <th className="text-center">{index + 1}</th>
                       <td>{row.nombre}</td>
-                      <td>{row.fecha}</td>
-                      <td>{row.cuantos}</td>
+                      <td className="text-center">{row.fecha}</td>
+                      <td className="text-center">{row.cuantos}</td>
                     </tr>
                   )
                 })
