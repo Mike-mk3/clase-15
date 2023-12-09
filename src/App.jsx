@@ -4,8 +4,6 @@ import Loading from './components/Loading'
 import AppRouter from './routes/AppRouter'
 import { NavLink } from 'react-router-dom'
 import Footer from './pages/Footer'
-import Home from './pages/Home'
-import Nosotros from './pages/Nosotros'
 
 
 function App() {
@@ -31,7 +29,7 @@ function App() {
          
 
          
-         <Footer creditos_a="U-CAMP"/> 
+         <Footer PROPS="U-CAMP"/> 
         </>}
       
 
