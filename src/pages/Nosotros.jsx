@@ -15,7 +15,10 @@ function Nosotros({}) {
                     <h1>NUESTRA BIENVENIDA</h1>
                     <hr />
                     <h4 className="text-center">Hola que tal Estimado Cliente!
-                        Nosotros Somos una empresa que se dedica a realizar platillos especificos de la mejor calidad, dandoles nuestra formula secreta a cada platillo para satisfacer a nuestros clientes y se vayan con un Gran Sabor de Boca.</h4>
+                        Nosotros Somos una empresa que se dedica a realizar platillos especificos de la mejor calidad, dandoles nuestra formula secreta a cada platillo para satisfacer a nuestros clientes y se vayan con un Gran Sabor de Boca.
+                        <hr />
+                        
+                        Desde el año 2000 nos  dedicamos a esto, teniendo hubicaciones en todos los estados de Mexico y nuetra meta es expandirnos a internacionalmente</h4>
                     <hr />
                     <h1>¡BUEN PROVECHO!</h1>
                     <hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr />

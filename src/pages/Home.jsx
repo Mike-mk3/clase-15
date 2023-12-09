@@ -69,6 +69,11 @@ function Home() {
       <td>Restaurant MK</td>
 
     </tr>
+    <tr>
+      <th >Ubicacion:</th>
+      <td >San Luis Potosi</td>
+ 
+    </tr>
   </tbody>
 </table>
 
