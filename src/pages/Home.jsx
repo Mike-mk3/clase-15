@@ -13,8 +13,10 @@ function Home() {
             <img src="https://www.3presupuestos.com/fotos/wp-content/uploads/2016/04/Restaurante-cla%CC%81sico-con-suelo-de-gres-973x649.jpg" className="w-100" alt="" />
           </div>
           <div className="col-md-6 p-4 ps-md-0">
-            <h1 className="mt-0 text-center">= Frase del Dia =</h1>
-            <p>"Algo más valioso que todas las riquezas que hay sobre la tierra, es tomar una copa de vino en el momento preciso"</p>
+            <h1 className="mt-0 text-center">= Frase del Dia =</h1 >
+            <p className="mt-0 text-center">
+            Algo más valioso que todas las riquezas que hay sobre la tierra, es tomar una copa de vino en el momento preciso.
+            </p>
           </div>
         </div>
 
@@ -79,9 +81,7 @@ function Home() {
 
 
       <div>
-        <footer>
-          <p className=" d-flex  py-5   bg-body-tertiary align-items-center flex-column">Esta pagina fue elaborada por un estudiante de U-CAMP con fines educativos</p>
-        </footer>
+   
       </div>
 
     </>

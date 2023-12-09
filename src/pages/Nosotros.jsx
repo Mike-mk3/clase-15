@@ -1,35 +1,6 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
-import Loading from "../components/Loading";
 
 
-function Nosotros() {
-
-
-    const [nosotros, setNosotros] = useState([]);
-    const [loading, setLoading] = useState(false);
-
-
-
-const getNosotros = async () => {
-    try {
-        const response = await axios.get(`nosotros`, {headers});
-        setNosotros (response.data.data);
-    } catch (error) {
-    }
-    setLoading (true);
-};
-
-    useEffect(() => {
-        console.log("entro a usseefect");
-    }, []);
-
-
-
-    if (loading) {
-        return (<Loading />)
-    }
-
+function Nosotros({}) {
 
 
 
@@ -47,7 +18,7 @@ const getNosotros = async () => {
                         Nosotros Somos una empresa que se dedica a realizar platillos especificos de la mejor calidad, dandoles nuestra formula secreta a cada platillo para satisfacer a nuestros clientes y se vayan con un Gran Sabor de Boca.</h4>
                     <hr />
                     <h1>¡BUEN PROVECHO!</h1>
-
+                    <hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr />
                 </div>
             </div>
         </div>
